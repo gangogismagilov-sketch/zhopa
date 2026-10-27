@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CodeFlow — пространство для совместной работы разработчиков над проектами.">
+  <title>CodeFlow — создавайте вместе</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="CodeFlow — главная">
+      <span class="logo-mark">&lt;/&gt;</span><span>Code<span class="logo-accent">Flow</span></span>
+    </a>
+    <nav class="nav">
+      <a href="#features">Возможности</a>
+      <a href="#palettes">Цветовые палитры</a>
+      <a href="#collage">Коллаж A4</a>
+    </nav>
+    <a class="header-link" href="#features">Исследовать <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> WORK BETTER, BUILD TOGETHER</div>
+        <h1>Идеи становятся<br><span class="gradient-text">реальными</span> вместе.</h1>
+        <p class="hero-description">CodeFlow — пространство, где разработчики объединяют код, идеи и задачи в одном удобном рабочем процессе.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#features">Начать работу <span>↗</span></a>
+          <a class="button button-secondary" href="#palettes">Посмотреть палитры</a>
+        </div>
+        <div class="hero-note"><span class="avatars"><i>A</i><i>M</i><i>K</i></span><span>Одна команда. Общая цель. Больше результата.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Иллюстрация рабочего пространства разработчика">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-top"><span></span><span></span><span></span><b>team-project.js</b></div>
+          <div class="code-content">
+            <p><em>01</em> <span class="code-purple">const</span> team = {</p>
+            <p><em>02</em> &nbsp; ideas: <span class="code-green">"unlimited"</span>,</p>
+            <p><em>03</em> &nbsp; teamwork: <span class="code-blue">true</span>,</p>
+            <p><em>04</em> &nbsp; progress: <span class="code-green">"every day"</span></p>
+            <p><em>05</em> };</p>
+            <p class="code-last"><em>06</em> <span class="code-purple">build</span>(team); <span class="cursor"></span></p>
+          </div>
+          <div class="window-footer"><span><b></b> All systems operational</span><span>main ↗</span></div>
+        </div>
+        <div class="floating-card task-card"><span class="mini-check">✓</span><div><b>Задача выполнена</b><small>Интерфейс команды</small></div><span class="tiny-spark">✳</span></div>
+        <div class="floating-card people-card"><div class="people-icons"><i>A</i><i>M</i><i>K</i></div><div><b>Команда онлайн</b><small>3 участника</small></div><span class="online-dot"></span></div>
+        <div class="hero-orb"><span>CF</span></div>
+      </div>
+      <div class="hero-bottom"><span>01 / COLLABORATION PLATFORM</span><span>ПРОСТРАНСТВО ДЛЯ ИДЕЙ <b>↓</b></span></div>
+    </section>
+
+    <section class="features section-wrap" id="features">
+      <div class="section-heading">
+        <div><div class="eyebrow">МЕНЬШЕ ХАОСА — БОЛЬШЕ СОЗДАННОГО</div><h2>Всё для хорошего <span>потока.</span></h2></div>
+        <p>Соберите команду, организуйте работу и следите за движением проекта — от первой идеи до готового результата.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-dark"><div class="feature-icon">&lt;/&gt;</div><span class="feature-number">01</span><h3>Общий код</h3><p>Обсуждайте решения, делитесь фрагментами кода и работайте над проектом в одном контексте.</p><a href="#collage" aria-label="Подробнее об общем коде">↗</a></article>
+        <article class="feature-card"><div class="feature-icon icon-red">◈</div><span class="feature-number">02</span><h3>Понятные задачи</h3><p>Разделяйте большие цели на небольшие шаги и понимайте, кто и над чем работает.</p><a href="#palettes" aria-label="Подробнее о задачах">↗</a></article>
+        <article class="feature-card"><div class="feature-icon icon-blue">◎</div><span class="feature-number">03</span><h3>Командный ритм</h3><p>Поддерживайте связь, быстро обменивайтесь идеями и двигайтесь к общей цели.</p><a href="#collage" aria-label="Подробнее о командной работе">↗</a></article>
+      </div>
+    </section>
+
+    <section class="palette-section" id="palettes">
+      <div class="section-wrap">
+        <div class="section-heading palette-heading">
+          <div><div class="eyebrow">ЗАДАНИЕ 2 · ЦВЕТОВЫЕ СХЕМЫ</div><h2>Шесть способов <span>сочетать цвет.</span></h2></div>
+          <p>Палитры собраны для учебного проекта CodeFlow. Нажми на карточку, чтобы выбрать сочетание для интерфейса.</p>
+        </div>
+        <div class="palette-grid">
+          <button class="palette-card" data-palette="complementary" type="button">
+            <span class="palette-title">01 / Комплементарное</span><span class="swatches"><i style="--sw:#642A3A"></i><i style="--sw:#2A6470"></i></span>
+            <span class="palette-meta"><b>Бордовый + бирюзовый</b><small>#642A3A · #2A6470</small></span>
+          </button>
+          <button class="palette-card" data-palette="contrast" type="button">
+            <span class="palette-title">02 / Контрастная триада</span><span class="swatches"><i style="--sw:#D7443E"></i><i style="--sw:#3478A8"></i><i style="--sw:#E5B943"></i></span>
+            <span class="palette-meta"><b>Красный + синий + жёлтый</b><small>#D7443E · #3478A8 · #E5B943</small></span>
+          </button>
+          <button class="palette-card" data-palette="triad" type="button">
+            <span class="palette-title">03 / Классическая триада</span><span class="swatches"><i style="--sw:#D64A4A"></i><i style="--sw:#4A9A73"></i><i style="--sw:#4A65B8"></i></span>
+            <span class="palette-meta"><b>Коралловый + зелёный + синий</b><small>#D64A4A · #4A9A73 · #4A65B8</small></span>
+          </button>
+          <button class="palette-card" data-palette="analogous" type="button">
+            <span class="palette-title">04 / Аналоговая триада</span><span class="swatches"><i style="--sw:#8B2332"></i><i style="--sw:#C13B4A"></i><i style="--sw:#E17B62"></i></span>
+            <span class="palette-meta"><b>Бордовый + красный + терракота</b><small>#8B2332 · #C13B4A · #E17B62</small></span>
+          </button>
+          <button class="palette-card" data-palette="tetrad" type="button">
+            <span class="palette-title">05 / Тетрада</span><span class="swatches"><i style="--sw:#643A8F"></i><i style="--sw:#D94B54"></i><i style="--sw:#D9A63A"></i><i style="--sw:#3C8C7A"></i></span>
+            <span class="palette-meta"><b>Фиолетовый + красный + жёлтый + бирюзовый</b><small>#643A8F · #D94B54 · #D9A63A · #3C8C7A</small></span>
+          </button>
+          <button class="palette-card" data-palette="rectangle" type="button">
+            <span class="palette-title">06 / Прямоугольная схема</span><span class="swatches"><i style="--sw:#243B6B"></i><i style="--sw:#E05A47"></i><i style="--sw:#4D8C73"></i><i style="--sw:#E6C76B"></i></span>
+            <span class="palette-meta"><b>Тёмно-синий + коралловый + зелёный + песочный</b><small>#243B6B · #E05A47 · #4D8C73 · #E6C76B</small></span>
+          </button>
+        </div>
+        <div class="palette-selection" aria-live="polite"><span class="selection-dot"></span><span id="palette-message">Сейчас используется базовая палитра: графитовый, кремовый и бордовый.</span></div>
+      </div>
+    </section>
+
+    <section class="collage-section section-wrap" id="collage">
+      <div class="section-heading">
+        <div><div class="eyebrow">ЗАДАНИЕ 3 · ЦИФРОВОЙ КОЛЛАЖ</div><h2>Визуальный дневник <span>идей.</span></h2></div>
+        <p>Коллаж формата A4 о том, что вдохновляет создавать: технологии, музыка, архитектура, город и эксперименты.</p>
+      </div>
+      <div class="collage-layout">
+        <div class="collage-frame"><img src="assets/creative-collage-a4.png" alt="Цифровой коллаж Creative Energy: музыка, ноутбук с кодом, архитектура, город и творческие заметки"></div>
+        <div class="collage-info">
+          <div class="collage-label">MOODBOARD / 2026</div>
+          <h3>Собирать идеи.<br>Создавать своё.</h3>
+          <p>В коллаже соединены фотографии и визуальные образы, связанные с творчеством и цифровой средой. Бордовые акценты объединяют разнородные фрагменты в единую композицию.</p>
+          <div class="tag-list"><span>ТЕХНОЛОГИИ</span><span>МУЗЫКА</span><span>АРХИТЕКТУРА</span><span>ИДЕИ</span></div>
+          <a class="button button-primary" href="assets/creative-collage-a4.png" target="_blank" rel="noopener">Открыть коллаж <span>↗</span></a>
+          <p class="print-note">Для печати: открой изображение и выбери формат A4, книжная ориентация, без полей.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="composition section-wrap">
+      <div class="eyebrow">РАЗБОР КОМПОЗИЦИИ · ЗАДАНИЕ 1</div>
+      <h2>Как устроен первый экран?</h2>
+      <div class="composition-grid">
+        <div><span>01</span><h3>Главный объект</h3><p>Крупный заголовок слева и окно с кодом справа — два основных смысловых центра первого экрана.</p></div>
+        <div><span>02</span><h3>Второстепенные элементы</h3><p>Навигация, описание, кнопки и небольшие карточки с задачей и участниками дополняют основную идею.</p></div>
+        <div><span>03</span><h3>Первая точка внимания</h3><p>Взгляд сначала цепляется за крупный заголовок и контрастное слово «реальными».</p></div>
+        <div><span>04</span><h3>Движение взгляда</h3><p>Слева направо: заголовок → описание → кнопки → иллюстрация кода → нижняя подпись.</p></div>
+        <div><span>05</span><h3>Принцип композиции</h3><p>Асимметричный баланс: текстовый блок уравновешен крупной иллюстрацией. Повторяются скругления, акцентный цвет и тонкие линии.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="logo" href="#home"><span class="logo-mark">&lt;/&gt;</span><span>Code<span class="logo-accent">Flow</span></span></a><span>Создавайте вместе. Двигайтесь дальше.</span><a href="#home">Наверх ↑</a></footer>
+  <script>
+    const paletteNames = {
+      complementary: "Комплементарное сочетание выбрано: бордовый и бирюзовый.",
+      contrast: "Контрастная триада выбрана: красный, синий и жёлтый.",
+      triad: "Классическая триада выбрана: коралловый, зелёный и синий.",
+      analogous: "Аналоговая триада выбрана: бордовый, красный и терракота.",
+      tetrad: "Тетрада выбрана: фиолетовый, красный, жёлтый и бирюзовый.",
+      rectangle: "Прямоугольная схема выбрана: тёмно-синий, коралловый, зелёный и песочный."
+    };
+    document.querySelectorAll(".palette-card").forEach(card => {
+      card.addEventListener("click", () => {
+        document.querySelectorAll(".palette-card").forEach(item => item.classList.remove("selected"));
+        card.classList.add("selected");
+        document.getElementById("palette-message").textContent = paletteNames[card.dataset.palette];
+      });
+    });
+  </script>
+</body>
+</html>
